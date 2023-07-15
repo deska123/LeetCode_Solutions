@@ -2,4 +2,4 @@
 
 List of my accepted solutions in LeetCode.
 
-Most of them are crafted with Java, SQL
+Most of them are crafted with Java, SQL, C#
