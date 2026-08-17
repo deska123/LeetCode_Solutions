@@ -1,0 +1,13 @@
+class Solution {
+    public int differenceOfSums(int n, int m) {
+        int num1 = 0, num2 = 0;
+        for(int a = 1; a <= n; a++) {
+            if(a % m != 0) {
+                num1 += a;
+            } else {
+                num2 += a;
+            }
+        }
+        return num1 - num2;
+    }
+}
